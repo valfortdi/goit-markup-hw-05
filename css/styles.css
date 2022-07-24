@@ -259,7 +259,7 @@ transition: color var(--cubic-animation);
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to bottom, var(--gradient-color), var(--gradient-color)), url(../images/background/background_main.png);
+  background-image: linear-gradient(to bottom, var(--gradient-color), var(--gradient-color)), url(./images/background/background_main.png);
   background-color: var(--bg-dark-color);
   background-repeat: no-repeat;
   background-position: center;
