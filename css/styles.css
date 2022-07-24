@@ -24,7 +24,7 @@
   --cubic-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 body {
-  font-family: var(--main-font );
+  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
@@ -259,7 +259,7 @@ transition: color var(--cubic-animation);
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to bottom, var(--gradient-color), var(--gradient-color)), url(./images/background/background_main.png);
+  background-image: linear-gradient(to bottom, var(--gradient-color), var(--gradient-color)), url(/images/background/background_main.png);
   background-color: var(--bg-dark-color);
   background-repeat: no-repeat;
   background-position: center;
@@ -311,7 +311,12 @@ transition: color var(--cubic-animation);
   display: flex;
 }
 
+.features-item {
+  display: flex;
+}
+
 .features-item-box {
+  
   width: 270px;
   height: 251px;
   margin-right: 30px;
